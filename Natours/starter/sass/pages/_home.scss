@@ -1,10 +1,11 @@
 .section-about {
     background-color: $color-grey-light-1;
-    padding: 25rem 0;
-    margin-top: -20vh;
+    padding: 25rem 0 35rem;
+    margin-top: -25vh;
 }
 
 .section-features {
+    margin-top: -14rem;
     padding: 20rem 0;
     background-image: linear-gradient(
         to right bottom,
@@ -13,4 +14,11 @@
         url(../img/nat-4.jpg);
     background-size: cover;
 
+    // this can also be achieved with the background-clip property
+    transform: skewY(-7deg);
+
+    // Selects all of the immediate children only -- in this case the row element
+    & > * {
+        transform: skewY(7deg);
+    }
 }
