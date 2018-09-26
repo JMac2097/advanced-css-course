@@ -2,6 +2,7 @@
 $color-white: #fffbfb;
 $color-black: #1c1d1c;
 $color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #dadada;
 $color-grey-dark: #777;
 
 $color-primary: #55c57a;
@@ -21,3 +22,11 @@ $gutter-horizontal: 6rem;
 
 //font sizes
 $font-size-default: 1.6rem;
+
+// shadows
+$box-shadow-1: 0 1.5rem 4rem rgba($color-black, .15);
+$box-shadow-2: 0 2rem 4rem rgba($color-black, .1);
+$box-shadow-3: 0 2.5rem 4rem rgba($color-black, .5);
+
+$button-shadow-hover: 0 1rem 2rem rgba($color-black,.2);
+$button-shadow-active: 0 1rem 1rem rgba($color-black, .2);
