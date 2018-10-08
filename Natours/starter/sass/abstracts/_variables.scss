@@ -3,7 +3,8 @@ $color-white: #fffbfb;
 $color-black: #1c1d1c;
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #dadada;
-$color-grey-dark: #777;
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #999;
 
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
@@ -30,3 +31,5 @@ $box-shadow-3: 0 2.5rem 4rem rgba($color-black, .5);
 
 $button-shadow-hover: 0 1rem 2rem rgba($color-black,.2);
 $button-shadow-active: 0 1rem 1rem rgba($color-black, .2);
+
+$border-radius-1: 3px;
